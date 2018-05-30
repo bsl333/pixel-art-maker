@@ -1,0 +1,16 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 410px;
+  max-height: 410px;
+  margin: auto;
+
+}
+
+.box {
+  margin: 2px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
