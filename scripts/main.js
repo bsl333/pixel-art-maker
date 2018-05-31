@@ -1,5 +1,5 @@
 // functions Definitions
-function createGrid(num) {
+function generateGrid(num) {
   const table = document.createElement('table')
   const tableBody = document.createElement('tbody')
   for (let i = 0; i < num; i++) {
@@ -34,14 +34,10 @@ function generateColorPalette() {
   const text = document.createElement('h5')
   text.textContent = 'selected color'
   mainDiv.appendChild(text)
-
-  // const selected = document.createElement('div')
-  // // selected.setAttribute('id', 'selected-color')
-  // // selected.classList.add('selected')
-  // // mainDiv.appendChild(selected)
 }
 
-createGrid(20);
+// create grid and a number palette
+generateGrid(13);
 generateColorPalette()
 let colorSelected = '';
 
